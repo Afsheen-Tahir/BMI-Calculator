@@ -1,0 +1,39 @@
+*{
+    background-color: rgb(139, 139, 104);
+    text-align: center;
+    
+}
+#whole_project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+   width: 100vw;
+   height: 100vh;
+
+}
+label{
+    display: block;
+    margin: 10px 0px 10px 0px;
+}
+#result{
+    background-color: rgb(139, 139, 104);
+    color: black;
+    width: 30vw;
+    height: 50vh;
+    border: 2px solid black;
+    margin: 3px;
+    display: none;
+}
+#height ,#weight{
+    background-color: whitesmoke;
+    color:black
+}
+
+.input ,.guidline{
+   border: 2px solid black;
+   width:30vw;
+   margin: 3px;
+   height: 50vh;
+}
